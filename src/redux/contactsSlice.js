@@ -51,8 +51,6 @@ const contactsSlice = createSlice({
       }),
 });
 
-// export const { fetchPending, fetchSuccess, fetchError } = contactsSlice.actions;
-
 const contactsReducer = contactsSlice.reducer;
 export default contactsReducer;
 //******************
